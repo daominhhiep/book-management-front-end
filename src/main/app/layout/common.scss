@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Gamja Flower';
+  color: #222;
+}
+
+.main-layout {
+  background-color: #f5f8fa;
+  min-height: 100vh;
+
+  a i {
+    color: white;
+  }
+
+  .navbar {
+    background-color: #0C47A1 !important;
+  }
+
+  .navbar li a {
+    color: white !important;
+  }
+
+  .navbar li a:hover {
+    color: black !important;
+  }
+
+  .nav-branch-title {
+    color: powderblue;
+    font-size: 50px;
+    padding-left: 5px;
+  }
+
+  .navbar-branch {
+    display: flex;
+  }
+
+  .main-body {
+    min-height: 90vh;
+    padding: 20px;
+  }
+}
+
+.carousel-item {
+  img {
+    width: 100%;
+    height: 75vh;
+  }
+}
+
+.custom-header {
+  font-size: 25px !important;
+}
+#carouselExampleIndicators {
+  margin: -20px !important;
+}
+
+

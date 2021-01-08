@@ -1,0 +1,61 @@
+.create-post-modal {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color: #222;
+	padding: 40px;
+	max-width: unset !important;
+	padding: 20px 30px;
+	box-shadow:  0px 33px 25px 0 #000,
+	0 66px 15px 0px #ccc,
+	 0 99px 5px 0px #fff;
+	
+	.create-form-title {
+		border-bottom: 1px solid #d9d9d9;
+		padding-bottom: 15px;
+		margin-bottom: 25px;
+		font-size: 20px;
+		h4 {
+			font-size:20px;
+		}
+	}
+	.custom-create-btn {
+		display: inline-block;
+		float: right;
+		background-color: #4d94ff;
+		border-color: #4d94ff;
+	}
+
+	.hidden { display:none; }
+
+	.custom-cancel-btn {
+		border-color: #4d94ff;
+		float: right;
+		margin-left: 15px;
+
+		color: #4d94ff;
+		background-color: white;
+	}
+
+	.custom-invalid {
+		font-size: 80%;
+		margin-top: 0.25rem;
+		margin-bottom: 0;
+		color: red
+	}
+	.custom-input-invalid {
+		border-color: red !important;
+	}
+	.form-control {
+		background-color:  white !important;
+	  }
+	.custom-close-x {
+		display: inline-block;
+		float: right;
+		color: #737373;
+		cursor: pointer;
+	}
+}
+
+.ReactModal__Overlay--after-open {
+	background-color: rgba(230, 240, 240, 0.75) !important
+}

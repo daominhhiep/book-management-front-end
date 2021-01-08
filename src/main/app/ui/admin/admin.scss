@@ -1,0 +1,47 @@
+.admin-page {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #222;
+  padding: 20px;
+  max-width: unset !important;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-height: 86vh;
+
+  .text-center {
+      text-align: center;
+  }
+
+  .ui-grid {
+    min-height: 630px !important;
+  }
+
+  .custom-btn {
+    background-color: #4d94ff !important;
+    border-color: #4d94ff !important;
+    color: white !important;
+    padding: 2px 5px;
+    font-size: 15px;
+  }
+
+  .btn-delete {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: white !important;
+    padding: 2px 5px;
+    font-size: 15px;
+  }
+
+  .btn-order {
+    background-color: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+    color: white !important;
+    padding: 2px 5px;
+    font-size: 15px;
+  }
+
+  Footer {
+    display: none;
+  }
+}

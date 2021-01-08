@@ -1,0 +1,37 @@
+.overdue-session {
+	background-color: #ffedb5 !important;
+}
+.card-body {
+	padding: 0.65rem
+}
+.status-ready {
+	background-color: #28a745!important;
+    border-color: #4d94ff;
+    color: white !important;
+    padding: 2px 5px;
+    font-size: 15px;
+}
+.status-borrowing {
+	background-color: #007bff!important;
+    border-color: #4d94ff !important;
+    color: white !important;
+    padding: 2px 5px;
+    font-size: 15px;
+}
+
+.status-overdue {
+	background-color: #dc3545!important;
+    border-color: #4d94ff !important;
+    color: white !important;
+    padding: 2px 5px;
+    font-size: 15px;
+}
+
+.btn-action:hover {
+    color: red;
+}
+
+.btn-action {
+    color: #969090;
+}
+
